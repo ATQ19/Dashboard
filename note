@@ -1,0 +1,116 @@
+<!-- Grid  -->
+
+<div class="container">
+
+  <div class="row">
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+  </div>
+
+</div>
+
+<!-- Grid take is 12 col  -->
+<!-- if using only 2 col will keep 10 col   -->
+
+
+
+<!-- Screen width 
+
+  xs = < 576px
+
+  sm = > 576px
+
+  md = > 768px
+
+  lg = > 992px
+
+  xl = > 1200px
+  
+  xxl = > 1400px 
+
+
+
+-->
+
+
+
+
+
+
+
+<!-- Vertical Alignment  -->
+
+
+<div class="container">
+
+  <div class="row align-content-center">  <!-- start , center , end   --> 
+    <div class="col align-self-start">1</div>  <!-- * - -    -->
+    <div class="col align-self-center">2</div>  <!-- - * -    -->
+    <div class="col align-self-end"3></div>  <!-- - - *    -->
+  </div>
+
+</div>
+
+
+
+
+
+<!-- Horizontal Alignment  -->   <!--   <-  ->   -->
+
+<div class="container">
+
+  <div class="row justify-content-around"> <!-- around , between ,evenly  -->
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+  </div>
+
+</div>
+
+
+
+
+<!-- ------------------------------- -->
+
+<!-- What different between justify && align  -->
+
+<!-- align = ياخذ المجموعة ويتحكم بالمكان  -->
+
+<!-- justify = يسوي مسافة بين العناصر  -->
+
+<!-- ------------------------------- -->
+
+
+
+
+<!-- Alerts  =  رسالة تحذرية -->
+
+
+
+
+
+<!-- Card
+
+ - card 
+ -card body
+ -card img
+ -card title
+ -card text
+
+-->
+
+
+<div class="card">
+
+  <img class="card-img" src="" alt="">
+  <div class="card-body">
+
+    <h5 class="card-title"></h5>
+    <p class="card-text"></p>
+    <a class="btn btn-dark" href=""></a>
+  </div>
+
+</div>
+
+

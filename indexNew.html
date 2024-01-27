@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Link CSS  -->
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- icon css  -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&family=Work+Sans:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+
+<!-- Chart      -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+    <title>Home</title>
+  </head>
+  <body>
+
+    <!-- Navbar  -->
+
+<nav class="navbar navbar-expand-sm bg-light navbar-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand mx-4" href="#"><img src="img/Object.svg" alt="" style="width:28px;"></a>
+        
+     
+
+
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav p-1 " id="x" style=" font-size: 14px">
+          <li class="nav-item mx-2 ">
+            <a class="nav-link  text-dark" href="#">الرئيسية</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link text-dark" href="#">عن اتمام</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link text-dark" href="#">خدمات اتمام</a>
+          </li>  
+
+          <li class="nav-item mx-2">
+            <a class="nav-link text-dark" href="#"> الأحداث والفعاليات</a>
+          </li>  
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown">الفئات المستهدفة</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Link</a></li>
+              <li><a class="dropdown-item" href="#">Another link</a></li>
+              <li><a class="dropdown-item" href="#">A third link</a></li>
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+      <div class="navbar-nav mx-5">
+        <a class="nav-link" href="#"><img src="img/codicon_text-size.svg" alt="" width="20px"></a>
+        <a class="nav-link" href="#"><img src="img/mdi_contrast-circle.svg" alt="" width="20px"></a>
+        <a class="nav-link" href="#"><img src="img/bi_mic.svg" alt="" width="20px"></a>
+      </div>
+    </div>
+  </nav>
+
+    <!-- End Navbar  -->
+
+
+
+
+    <!-- Sub Navbar  -->
+
+    <nav class="navbar navbar-expand-sm  navbar-dark" style="background:#001254 ;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/sublogo.svg" alt="" style="width:178px;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+         
+          <!-- icon  -->
+          <!-- End icon  -->
+  
+        </button>
+  
+  
+        <div class="collapse navbar-collapse mx-5 p-3" id="collapsibleNavbar">
+          <ul class="navbar-nav me-auto " style="font-size: 16px;">
+            
+            <li class="nav-item mx-4">
+              <a class="nav-link  text-white" href="#" style="font-size:16px ; font-weight: 400; "><i class="fa-regular fa-user fa-sm" style="color: #ffffff;"></i> الملف الشخصي</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link text-white" href="#" style="font-size:16px ; font-weight: 400; "><i class="fa-regular fa-bell fa-sm" style="color: #ffffff;"></i> التنبيهات</a>
+            </li>
+           
+            <button type="button" class="btn btn-primary mx-4 ">اصدار جديد</button>
+
+          </ul>
+
+
+    
+  
+  
+          
+        </div>
+
+      </div>
+    </nav>
+
+
+    <!-- End Sub Navbar -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="d-flex" id="wrapper">
+      <!-- Sidebar -->
+      <div class="" id="sidebar-wrapper" style="background:#001254 ;">
+         
+        <!-- dropdown  -->
+            
+            <div class="dropdown mx-2 mt-4 ">
+              <button class="btn btn-lg  dropdown-toggle" type="button" id="atq" data-bs-toggle="dropdown"> 
+                
+                <div class="d-flex flex-column p-1 mx-4">
+                  <span style="font-size: 14px;">البعد التصميمي</span>
+                  <span style="font-size: 14px;;">293902930291</span> 
+                </div>
+                
+                     
+              </button>
+
+
+              
+
+              <div class="dropdown-menu " aria-labelledby="atq"> 
+
+                <div class="row">
+                
+                <div class="col-4"><a href="" class="dropdown-item">
+                  <div class="dropdown-element">
+                  <img src="img/image.svg" alt="">
+                  <h5 style="font-size:18px ;">شركة المنامة<br> للخدمات</h5>
+                  <p>1010197164</p>
+                  </div>
+                  <button class="btn btn-danger">غير مؤهل</button>
+                </a></div>
+
+
+                <div class="col-4"><a href="" class="dropdown-item">
+                  <div class="dropdown-element">
+                  <img src="img/image.svg" alt="">
+                  <h5 style="font-size:18px ;">شركة المنامة<br> للخدمات</h5>
+                  <p>1010197164</p>
+                  </div>
+                  <button class="btn btn-danger">غير مؤهل</button>
+                </a></div>
+
+
+                <div class="col-4"><a href="" class="dropdown-item">
+                  <div class="dropdown-element">
+                  <img src="img/image.svg" alt="">
+                  <h5 style="font-size:18px ;">شركة المنامة<br> للخدمات</h5>
+                  <p>1010197164</p>
+                  </div>
+                  <button class="btn btn-danger">غير مؤهل</button>
+                </a></div>
+
+               
+              </div>
+
+
+
+
+              <div class="row">
+                
+                <div class="col-4"><a href="" class="dropdown-item">
+                  <div class="dropdown-element">
+                  <img src="img/image.svg" alt="">
+                  <h5 style="font-size:18px ;">شركة المنامة<br> للخدمات</h5>
+                  <p>1010197164</p>
+                  </div>
+                  <button class="btn btn-success"> مؤهل</button>
+                </a></div>
+
+
+
+                <div class="col-4"><a href="" class="dropdown-item">
+                  <div class="dropdown-element">
+                  <img src="img/image.svg" alt="">
+                  <h5 style="font-size:18px ;">شركة المنامة<br> للخدمات</h5>
+                  <p>1010197164</p>
+                  </div>
+                  <button class="btn btn-success"> مؤهل</button>
+                </a></div>
+
+
+                <div class="col-4"><a href="" class="dropdown-item">
+                  <div class="dropdown-element">
+                  <img src="img/image.svg" alt="">
+                  <h5 style="font-size:18px ;">شركة المنامة<br> للخدمات</h5>
+                  <p>1010197164</p>
+                  </div>
+                  <button class="btn btn-success"> مؤهل</button>
+                </a></div>
+
+
+               
+              </div>
+
+
+
+
+
+              </div>
+
+
+
+              
+                
+            </div>
+
+            <!-- ---------- -->
+            
+          <div class="list-group list-group-flush my-3 mt-3" style="font-size:16px ;">
+
+            
+              <a href="#" class="list-group-item list-group-item-action text-white  "><img src="img/Icon.svg" alt=""> لوحة تحكم</a>
+              <a href="#" class="list-group-item list-group-item-action text-white "><img src="img/ant-design_file-text-outlined.svg" alt=""> طلبات تقديم الخدمات</a>
+              <a href="#" class="list-group-item list-group-item-action text-white"><img src="img/ant-design_file-text-outlined.svg" alt=""> صندوق الطلبات</a>
+              <a href="#" class="list-group-item list-group-item-action text-white"><img src="img/ant-design_file-text-outlined.svg" alt=""> الموظفين</a>
+              <a href="#" class="list-group-item list-group-item-action text-white"><img src="img/Shape.svg" alt=""> مركز التأهيل</a>
+              <a href="#" class="list-group-item list-group-item-action text-white"><img src="img/Shape (1).svg" alt=""> عرض الأسعار</a>
+
+              <a href="#" class="list-group-item list-group-item-action  text-white"><img src="img/Shape (2).svg" alt=""> متجر بلدي
+                      <button type="button" class="btn btn-success mx-3" style="font-size: 14px ;">تفعيل</button>
+
+                    </a> 
+           <hr style="background:#ffff ; height:1px ;">
+              <a href="#" class="list-group-item list-group-item-action text-danger"><img src="img/logout.svg" alt=""> تسجيل خروج</a>
+          </div>
+
+      </div>
+
+
+    <!-- Right menu  -->
+
+
+    
+    <!-- col  -->
+
+    <div class="container-fluid p-3">
+      <div class="row g-2 my-2">
+        <div class="col-md-6">
+     <div class="p-4 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
+
+                  
+                  <div class="col-3">
+                      <h5 style="font-size: 14px; font-weight:400;" >بالارقام</h5>
+                      <h4 style="font-weight:700; font-size: 18px;"> طلبات التفويض</h4>
+
+
+                      
+
+                      <div class="row">
+
+                          <div class="col">
+                        <h1 style="font-size:48px; font-weight:700;">86</h1>
+                        <h5 style="font-weight: 400; font-size:14px">اجمالي الطلبات</h5>
+                            
+                              </div>
+
+                              
+                              
+                      </div>
+
+                      
+                      
+
+                  </div>
+                  <div class="col">
+                    <canvas class="" id="myChart" style="width:100%;max-width:500px;"></canvas>
+
+                  </div>
+       
+                 </div>
+
+                 </div>
+
+
+                 <div class="col-md-6">
+                  <div class="p-4 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
+             
+                               
+                               <div class="col-3">
+                                   <h5 style="font-size: 14px; font-weight:400;" >بالارقام</h5>
+                                   <h4 style="font-weight:700; font-size: 18px;"> طلبات تقديم الخدمات</h4>
+             
+             
+                                   
+             
+                                   <div class="row">
+             
+                                       <div class="col">
+                                     <h1 style="font-size:48px; font-weight:700;">86</h1>
+                                     <h5 style="font-weight: 400; font-size:14px">اجمالي الطلبات</h5>
+                                         
+                                           </div>
+             
+                                           
+                                           
+                                   </div>
+             
+                                   
+                                   
+             
+                               </div>
+                               <div class="col">
+                                 <canvas class="" id="Chart" style="width:100%;max-width:500px;"></canvas>
+             
+                               </div>
+                    
+                              </div>
+             
+                              </div>
+            </div>
+                
+
+
+
+
+
+
+
+              
+
+            
+
+
+                  
+
+              
+         
+
+
+
+         
+
+        
+
+        <div class="row my-5 mx-0">
+          <div class="col bg-white p-2 rounded shadow-sm">
+            <div class="d-flex justify-content-end p-3">
+               <h5 style="font-size: 14px; font-weight: 500; color: #141A20;"><img src="img/view.svg" alt=""> التفاوض</h5>
+               <div class="mx-2">
+               <h5 style="font-size: 14px; font-weight: 500; color: #ADB3B9;"><img src="img/view.svg" alt=""> الخدمات</h5>
+               </div>
+            </div>
+           
+              <table class="table bg-white rounded shadow-sm  table-hover">
+                  <thead>
+                      <tr c style="background:#001254 ; color:#ffff;">
+                          <th scope="col" width="50"></th>
+                          <th scope="col">رقم الطلب</th>
+                          <th scope="col">نوع الطلب</th>
+                          <th scope="col">الموقع</th>
+                          <th scope="col">حالة الطلب</th>
+                          <th scope="col">تاريخ الطلب</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <th scope="row"><i class="fa-solid fa-circle-chevron-down fa-sm" style="color: #a8a8a8;"></i></th>
+                          <td>234234</td>
+                          <td>رخصة مركبة متنقلة</td>
+                          <td> الرياض</td>
+                          <td><button type="button" class="btn btn-success " style="width:83px ; height:30px; font-size: 12px; font-weight: 700; ">قيد المراجعة</button></td>
+                          <td>2020/5/23</td>
+                      </tr>
+                      <tr>
+                          <th scope="row"><i class="fa-solid fa-circle-chevron-down fa-sm" style="color: #a8a8a8;"></i></th>
+                          <td>234234</td>
+                          <td>شهادة صحية</td>
+                          <td>الرياض</td>
+                          <td><button type="button" class="btn btn-danger " style="width:83px ; height:30px; font-size: 12px; font-weight: 700; ">منتهي </button></td>
+                          <td>2020/5/23</td>
+                      </tr>
+                      <tr>
+                          <th scope="row"><i class="fa-solid fa-circle-chevron-down fa-sm" style="color: #a8a8a8;"></i></th>
+                          <td>234234</td>
+                          <td>رخصة مركبة متنقلة</td>
+                          <td>جدة</td>
+                          <td><button type="button" class="btn btn-danger " style="width:83px ; height:30px; font-size: 12px; font-weight: 700; ">منتهي </button></td>
+                          <td>2020/5/23</td>
+                      </tr>
+                      <tr>
+                          <th scope="row"><i class="fa-solid fa-circle-chevron-down fa-sm" style="color: #a8a8a8;"></i></th>
+                          <td>234234</td>
+                          <td>رخصة مركبة متنقلة</td>
+                          <td>جدة</td>
+                          <td><button type="button" class="btn btn-success " style="width:83px ; height:30px; font-size: 12px; font-weight: 700; ">قيد المراجعة</button></td>
+                          <td>2020/5/23</td>
+                      </tr>
+                      <tr>
+                          <th scope="row"><i class="fa-solid fa-circle-chevron-down fa-sm" style="color: #a8a8a8;"></i></th>
+                          <td>234234</td>
+                          <td>رخصة مركبة متنقلة</td>
+                          <td>جدة</td>
+                          <td><button type="button" class="btn btn-success " style="width:83px ; height:30px; font-size: 12px; font-weight: 700; ">قيد المراجعة</button></td>
+                          <td>2020/5/23</td>
+                      </tr>
+                      <tr>
+                          <th scope="row"><i class="fa-solid fa-circle-chevron-down fa-sm" style="color: #a8a8a8;"></i></th>
+                          <td>234234</td>
+                          <td>رخصة مركبة متنقلة</td>
+                          <td>الرياض</td>
+                          <td><button type="button" class="btn btn-danger " style="width:83px ; height:30px; font-size: 12px; font-weight: 700; ">منتهي </button></td>
+                          <td>2020/5/23</td>
+                      </tr>
+                     
+                      
+                   
+                  </tbody>
+              </table>
+
+
+              <div class="d-flex justify-content-between p-2">
+                <h5 style="font-size:16px ; font-weight: 500; color:#141A20;">الذهاب الى الطلبات</h5>
+                <div class="mx-4">
+                  <img src="img/digram left.svg" alt="">
+                </div>
+                
+              </div>
+          </div>
+      </div>
+
+          
+
+
+        
+
+
+      
+    </div>
+    
+
+
+    
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+      <script src="js/chart.js"></script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    -->
+
+  </body>
+</html>
